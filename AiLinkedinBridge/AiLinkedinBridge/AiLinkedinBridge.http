@@ -1,0 +1,6 @@
+@AiLinkedinBridge_HostAddress = http://localhost:5258
+
+GET {{AiLinkedinBridge_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

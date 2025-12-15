@@ -1,0 +1,88 @@
+{
+  "name": "LinkedIn Post Generator",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "generate-post",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [3344, 48],
+      "id": "2d078e01-12c9-4e00-82d6-a5617f723ab7",
+      "webhookId": "8bde6344-c16e-4e44-acd5-12ee5104a3bf"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "name": "Prepare Prompt",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3,
+      "position": [3568, 48],
+      "id": "09873966-0761-44df-89ee-cdf577e97b1a"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Content-Type", "value": "application/json" },
+            { "name": "x-goog-api-key", "value": "={{ $json.body.geminiApiKey }}" }
+          ]
+        },
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "contents",
+              "value": "={{ [{ parts: [{ text: $json.body.topic }] }] }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "name": "Call Gemini API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [3808, 48],
+      "id": "18b39c08-eb30-4d1e-b03c-7d0f87d15a76"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "name": "Extract Text",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3,
+      "position": [4032, 48],
+      "id": "7919a7c3-37df-4089-8d20-d9016df5dabe"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ {\"status\":\"success\",\"post\": $json.candidates[0].content.parts[0].text} }}",
+        "options": { "responseCode": 200 }
+      },
+      "name": "Respond",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [4240, 48],
+      "id": "4163c65b-918a-43cb-8f92-cb2668076976"
+    }
+  ],
+  "connections": {
+    "Webhook": { "main": [[{ "node": "Prepare Prompt", "type": "main", "index": 0 }]] },
+    "Prepare Prompt": { "main": [[{ "node": "Call Gemini API", "type": "main", "index": 0 }]] },
+    "Call Gemini API": { "main": [[{ "node": "Extract Text", "type": "main", "index": 0 }]] },
+    "Extract Text": { "main": [[{ "node": "Respond", "type": "main", "index": 0 }]] }
+  },
+  "active": true,
+  "settings": { "executionOrder": "v1" },
+  "versionId": "287ad864-9fe8-46db-967a-1ddca52faa06"
+}

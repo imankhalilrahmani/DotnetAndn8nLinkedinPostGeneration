@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\projects\\Web\\Backend\\n8nDotnet\\AiLinkedinBridge\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47D12F13-0668-432F-86D0-203158FEF06E}|AiLinkedinBridge\\AiLinkedinBridge.csproj|d:\\projects\\web\\backend\\n8ndotnet\\ailinkedinbridge\\ailinkedinbridge\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{47D12F13-0668-432F-86D0-203158FEF06E}|AiLinkedinBridge\\AiLinkedinBridge.csproj|solutionrelative:ailinkedinbridge\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47D12F13-0668-432F-86D0-203158FEF06E}|AiLinkedinBridge\\AiLinkedinBridge.csproj|d:\\projects\\web\\backend\\n8ndotnet\\ailinkedinbridge\\ailinkedinbridge\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47D12F13-0668-432F-86D0-203158FEF06E}|AiLinkedinBridge\\AiLinkedinBridge.csproj|solutionrelative:ailinkedinbridge\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47D12F13-0668-432F-86D0-203158FEF06E}|AiLinkedinBridge\\AiLinkedinBridge.csproj|d:\\projects\\web\\backend\\n8ndotnet\\ailinkedinbridge\\ailinkedinbridge\\models\\generatepostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47D12F13-0668-432F-86D0-203158FEF06E}|AiLinkedinBridge\\AiLinkedinBridge.csproj|solutionrelative:ailinkedinbridge\\models\\generatepostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47D12F13-0668-432F-86D0-203158FEF06E}|AiLinkedinBridge\\AiLinkedinBridge.csproj|d:\\projects\\web\\backend\\n8ndotnet\\ailinkedinbridge\\ailinkedinbridge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47D12F13-0668-432F-86D0-203158FEF06E}|AiLinkedinBridge\\AiLinkedinBridge.csproj|solutionrelative:ailinkedinbridge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GeneratePostRequest.cs",
+              "DocumentMoniker": "D:\\projects\\Web\\Backend\\n8nDotnet\\AiLinkedinBridge\\AiLinkedinBridge\\Models\\GeneratePostRequest.cs",
+              "RelativeDocumentMoniker": "AiLinkedinBridge\\Models\\GeneratePostRequest.cs",
+              "ToolTip": "D:\\projects\\Web\\Backend\\n8nDotnet\\AiLinkedinBridge\\AiLinkedinBridge\\Models\\GeneratePostRequest.cs",
+              "RelativeToolTip": "AiLinkedinBridge\\Models\\GeneratePostRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T16:51:16.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContentController.cs",
+              "DocumentMoniker": "D:\\projects\\Web\\Backend\\n8nDotnet\\AiLinkedinBridge\\AiLinkedinBridge\\Controllers\\ContentController.cs",
+              "RelativeDocumentMoniker": "AiLinkedinBridge\\Controllers\\ContentController.cs",
+              "ToolTip": "D:\\projects\\Web\\Backend\\n8nDotnet\\AiLinkedinBridge\\AiLinkedinBridge\\Controllers\\ContentController.cs",
+              "RelativeToolTip": "AiLinkedinBridge\\Controllers\\ContentController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwB4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T16:50:34.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\projects\\Web\\Backend\\n8nDotnet\\AiLinkedinBridge\\AiLinkedinBridge\\appsettings.json",
+              "RelativeDocumentMoniker": "AiLinkedinBridge\\appsettings.json",
+              "ToolTip": "D:\\projects\\Web\\Backend\\n8nDotnet\\AiLinkedinBridge\\AiLinkedinBridge\\appsettings.json",
+              "RelativeToolTip": "AiLinkedinBridge\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-15T16:50:13.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\projects\\Web\\Backend\\n8nDotnet\\AiLinkedinBridge\\AiLinkedinBridge\\Program.cs",
+              "RelativeDocumentMoniker": "AiLinkedinBridge\\Program.cs",
+              "ToolTip": "D:\\projects\\Web\\Backend\\n8nDotnet\\AiLinkedinBridge\\AiLinkedinBridge\\Program.cs",
+              "RelativeToolTip": "AiLinkedinBridge\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T16:49:47.048Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

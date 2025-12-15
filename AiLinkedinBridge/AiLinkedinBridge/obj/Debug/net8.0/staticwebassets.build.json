@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "kM/+8DkmSQDQ9WMQHC2c9oZZPZhLiCrAYyOP5c6jHjU=",
+  "Source": "AiLinkedinBridge",
+  "BasePath": "_content/AiLinkedinBridge",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
